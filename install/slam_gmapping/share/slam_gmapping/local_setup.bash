@@ -1,0 +1,1 @@
+/home/rob1/eeng_462/lab4/build/slam_gmapping/ament_cmake_environment_hooks/local_setup.bash

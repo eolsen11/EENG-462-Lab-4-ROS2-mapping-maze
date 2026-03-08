@@ -1,0 +1,4 @@
+Invoking command in '/home/rob1/eeng_462/lab4/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/openslam_gmapping -- -j6 -l6
+Invoked command in '/home/rob1/eeng_462/lab4/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/openslam_gmapping -- -j6 -l6
+Invoking command in '/home/rob1/eeng_462/lab4/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/openslam_gmapping
+Invoked command in '/home/rob1/eeng_462/lab4/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/openslam_gmapping

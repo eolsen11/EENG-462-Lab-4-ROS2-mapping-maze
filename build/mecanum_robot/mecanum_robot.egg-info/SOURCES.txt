@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+mecanum_robot/__init__.py
+mecanum_robot/mecanum_robot.py
+mecanum_robot.egg-info/PKG-INFO
+mecanum_robot.egg-info/SOURCES.txt
+mecanum_robot.egg-info/dependency_links.txt
+mecanum_robot.egg-info/entry_points.txt
+mecanum_robot.egg-info/requires.txt
+mecanum_robot.egg-info/top_level.txt
+mecanum_robot.egg-info/zip-safe
+resource/mecanum_robot

@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/rob1/eeng_462/lab4/src/openslam_gmapping/CMakeLists.txt" does not match the source "/home/rob1/eeng_462/lab4/src/slam_gmapping/openslam_gmapping/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

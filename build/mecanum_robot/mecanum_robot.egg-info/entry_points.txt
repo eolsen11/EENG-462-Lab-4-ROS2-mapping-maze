@@ -1,0 +1,3 @@
+[console_scripts]
+mecanum_robot = mecanum_robot.mecanum_robot:main
+

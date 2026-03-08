@@ -14,3 +14,15 @@ https://github.com/Project-MANAS/slam_gmapping
 
 This git repo is a bit of a mess because it has two packages that depend on one another within the git repo, not having a distinct git repo per-package
 
+I also struggled to get the "map" to show up. Here's a supposed solution. I have yet to test it.
+https://github.com/Project-MANAS/slam_gmapping/issues/9
+
+Here's another slam module, but I couldn't build it due to problems with opencv
+https://github.com/TixiaoShan/LIO-SAM/tree/ros2?tab=readme-ov-file#prepare-lidar-data
+
+Found this resource for debugging using GDB
+https://juraph.com/miscellaneous/ros2_and_gdb/
+
+This creates a pdf of our transform tree
+```ros2 run tf2_tools view_frames```
+

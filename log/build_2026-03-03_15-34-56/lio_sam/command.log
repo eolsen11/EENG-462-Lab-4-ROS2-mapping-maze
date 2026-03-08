@@ -1,0 +1,2 @@
+Invoking command in '/home/rob1/eeng_462/lab4/build/lio_sam': /usr/bin/cmake /home/rob1/eeng_462/lab4/src/LIO-SAM -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/rob1/eeng_462/lab4/install/lio_sam
+Invoked command in '/home/rob1/eeng_462/lab4/build/lio_sam' returned '1': /usr/bin/cmake /home/rob1/eeng_462/lab4/src/LIO-SAM -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/rob1/eeng_462/lab4/install/lio_sam

@@ -1,0 +1,24 @@
+[0.020s] Invoking command in '/home/rob1/eeng_462/lab4/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/openslam_gmapping:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/slam_gmapping -- -j6 -l6
+[0.133s] [100%] Built target slam_gmapping
+[0.156s] Invoked command in '/home/rob1/eeng_462/lab4/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/openslam_gmapping:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/opt/ros/humble /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/slam_gmapping -- -j6 -l6
+[0.160s] Invoking command in '/home/rob1/eeng_462/lab4/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/openslam_gmapping:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/slam_gmapping
+[0.176s] -- Install configuration: ""
+[0.177s] -- Execute custom install script
+[0.177s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[0.178s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[0.178s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[0.179s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[0.179s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[0.179s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[0.180s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[0.180s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[0.180s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[0.181s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[0.181s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[0.181s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[0.181s] -- Symlinking: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.dsv
+[0.199s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[0.199s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[0.199s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[0.200s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.xml
+[0.205s] Invoked command in '/home/rob1/eeng_462/lab4/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/openslam_gmapping:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/opt/ros/humble /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/slam_gmapping

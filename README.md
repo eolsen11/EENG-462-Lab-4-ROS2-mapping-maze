@@ -26,3 +26,15 @@ https://juraph.com/miscellaneous/ros2_and_gdb/
 This creates a pdf of our transform tree
 ```ros2 run tf2_tools view_frames```
 
+This blog talks about what is necessary for the lidar to work w mapping
+https://www.modularmachines.ai/security_robot/2025/02/08/SecurityRobot-RPLidar.html
+They also implement ros2_control, probably a tangent given my time limit
+https://www.modularmachines.ai/security_robot/2025/02/22/SecurityRobot-Ros2_control.html
+Here's a mapping thing they did with a tool called nav2 slam
+https://www.modularmachines.ai/security_robot/2025/05/26/SecurityRobot-Mapping.html
+
+These articles suggest maybe a tool called slam_toolbox is standard?
+https://github.com/SteveMacenski/slam_toolbox I'm gonna use branch humble
+I had to install a package called libcholmod3. IDK if it's the right one but colcon was complaining that it didn't have CHOLMOD libs. I also installed libsuitesparse-dev
+
+Got further errors RQ-ing a package called ceres, but I need to go for now. I'll push just to document my research

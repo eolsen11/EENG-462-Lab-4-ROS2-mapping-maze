@@ -1,3 +1,4 @@
+/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/.view_rplidar_a1_launch.py.swp
 /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
 /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
 /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py

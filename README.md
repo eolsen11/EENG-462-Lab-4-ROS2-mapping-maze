@@ -47,3 +47,22 @@ I think I need to use robot_state_publisher with my urdf
 https://docs.ros.org/en/humble/Tutorials/Intermediate/URDF/Using-URDF-with-Robot-State-Publisher-py.html
 
 A classmate sent me some code for a node that published odometry data and broadcast transforms
+I implemented it, I might need to modify some bits to get all the directions correct
+
+I think I'll redo the init files to python since I can't find a good tutorial for adding urdf files in the xml init files
+
+## TODO
+Implement SLAM
+	Write/incorporate URDF file
+	Write URDF file with wheels, collision, LIDAR, camera pole, camera
+
+Hug the right wall while mapping
+	Follow right wall to end of map
+
+Implement vslam
+	Use vslam on the camera to detect green tape
+	Waypoint in vslam on map to find exit (green tape on maze exit)
+	How does ROS2 do waypoints on maps?
+	How does ROS2 do vslam?
+
+	Can I use a color sensor on the front of the robot to look for green tape?

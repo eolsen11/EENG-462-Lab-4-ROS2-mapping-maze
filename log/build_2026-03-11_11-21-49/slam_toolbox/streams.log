@@ -1,0 +1,451 @@
+[0.028s] Invoking command in '/home/rob1/eeng_462/lab4/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake /home/rob1/eeng_462/lab4/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/rob1/eeng_462/lab4/install/slam_toolbox
+[0.052s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.350s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.375s] -- Found message_filters: 4.3.14 (/opt/ros/humble/share/message_filters/cmake)
+[0.457s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.463s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.476s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.599s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.602s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.824s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.942s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.005s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.043s] -- Found tf2: 0.25.19 (/opt/ros/humble/share/tf2/cmake)
+[1.052s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.223s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.265s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[1.292s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.301s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.304s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.307s] -- Found tf2_sensor_msgs: 0.25.19 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[1.319s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.336s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.353s] -- Found rviz_common: 11.2.25 (/opt/ros/humble/share/rviz_common/cmake)
+[1.383s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.393s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.396s] -- Found OGRE
+[1.396s] --   static     : OFF
+[1.396s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.396s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.397s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.397s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.397s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.397s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.397s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.397s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.397s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.398s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.398s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.401s] -- Could not find freeimage library
+[1.551s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[1.590s] -- Found rviz_default_plugins: 11.2.25 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[1.904s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[1.909s] -- Found required Ceres dependency: glog
+[1.910s] -- Found required Ceres dependency: gflags
+[1.911s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[2.849s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.706s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.764s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.765s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.765s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.047s] -- Configuring done
+[5.626s] -- Generating done
+[5.760s] -- Build files have been written to: /home/rob1/eeng_462/lab4/build/slam_toolbox
+[5.819s] Invoked command in '/home/rob1/eeng_462/lab4/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake /home/rob1/eeng_462/lab4/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/rob1/eeng_462/lab4/install/slam_toolbox
+[5.824s] Invoking command in '/home/rob1/eeng_462/lab4/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/slam_toolbox -- -j6 -l6
+[5.935s] [35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[5.936s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_generator_c[0m
+[5.955s] [  1%] Built target slam_toolbox__cpp
+[5.968s] [ 10%] Built target slam_toolbox__rosidl_generator_c
+[5.968s] [ 10%] Built target ament_cmake_python_symlink_slam_toolbox
+[5.983s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_cpp[0m
+[5.983s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_cpp[0m
+[5.985s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_cpp[0m
+[5.999s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c[0m
+[6.003s] [ 12%] Built target kartoSlamToolbox
+[6.025s] [ 20%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[6.028s] [ 28%] Built target slam_toolbox__rosidl_typesupport_cpp
+[6.031s] [ 37%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[6.032s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_c[0m
+[6.044s] [ 46%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[6.053s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_c[0m
+[6.062s] [35m[1mConsolidate compiler generated dependencies of target SlamToolboxPlugin[0m
+[6.064s] [35m[1mConsolidate compiler generated dependencies of target ceres_solver_plugin[0m
+[6.067s] [ 54%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[6.082s] [ 62%] Built target slam_toolbox__rosidl_typesupport_c
+[6.087s] [35m[1mConsolidate compiler generated dependencies of target toolbox_common[0m
+[6.123s] [ 64%] Built target SlamToolboxPlugin
+[6.124s] [ 64%] Built target slam_toolbox
+[6.138s] [ 66%] Built target ceres_solver_plugin
+[6.175s] [ 66%] Built target slam_toolbox__py
+[6.195s] [ 71%] Built target toolbox_common
+[6.201s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_generator_py[0m
+[6.221s] [35m[1mConsolidate compiler generated dependencies of target lifelong_slam_toolbox[0m
+[6.222s] [35m[1mConsolidate compiler generated dependencies of target async_slam_toolbox[0m
+[6.222s] [35m[1mConsolidate compiler generated dependencies of target sync_slam_toolbox[0m
+[6.225s] [35m[1mConsolidate compiler generated dependencies of target localization_slam_toolbox[0m
+[6.261s] [ 79%] Built target slam_toolbox__rosidl_generator_py
+[6.289s] [35m[1mConsolidate compiler generated dependencies of target merge_maps_kinematic[0m
+[6.299s] [ 84%] Built target async_slam_toolbox
+[6.299s] [ 84%] Built target lifelong_slam_toolbox
+[6.299s] [ 84%] Built target sync_slam_toolbox
+[6.304s] [ 85%] Built target localization_slam_toolbox
+[6.321s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_c__pyext[0m
+[6.321s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.321s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_c__pyext[0m
+[6.333s] [35m[1mConsolidate compiler generated dependencies of target async_slam_toolbox_node[0m
+[6.351s] [ 88%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[6.351s] [ 88%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[6.356s] [ 90%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[6.376s] [ 92%] Built target merge_maps_kinematic
+[6.377s] [35m[1mConsolidate compiler generated dependencies of target sync_slam_toolbox_node[0m
+[6.377s] [35m[1mConsolidate compiler generated dependencies of target localization_slam_toolbox_node[0m
+[6.381s] [35m[1mConsolidate compiler generated dependencies of target lifelong_slam_toolbox_node[0m
+[6.401s] [ 93%] Built target async_slam_toolbox_node
+[6.406s] [35m[1mConsolidate compiler generated dependencies of target map_and_localization_slam_toolbox[0m
+[6.449s] [ 95%] Built target sync_slam_toolbox_node
+[6.450s] [ 96%] Built target localization_slam_toolbox_node
+[6.455s] [ 98%] Built target lifelong_slam_toolbox_node
+[6.488s] [ 99%] Built target map_and_localization_slam_toolbox
+[6.516s] [35m[1mConsolidate compiler generated dependencies of target map_and_localization_slam_toolbox_node[0m
+[6.594s] [100%] Built target map_and_localization_slam_toolbox_node
+[6.598s] running egg_info
+[6.599s] writing slam_toolbox.egg-info/PKG-INFO
+[6.600s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[6.600s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[6.606s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[6.607s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[6.682s] [100%] Built target ament_cmake_python_build_slam_toolbox_egg
+[6.712s] Invoked command in '/home/rob1/eeng_462/lab4/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/slam_toolbox -- -j6 -l6
+[6.718s] Invoking command in '/home/rob1/eeng_462/lab4/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/slam_toolbox
+[6.736s] -- Install configuration: "Release"
+[6.738s] -- Execute custom install script
+[6.739s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include//karto_sdk/Karto.h
+[6.739s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include//karto_sdk/Macros.h
+[6.740s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include//karto_sdk/Mapper.h
+[6.740s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include//karto_sdk/Math.h
+[6.740s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include//karto_sdk/Types.h
+[6.741s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include//karto_sdk/nanoflann.hpp
+[6.741s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h
+[6.741s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox
+[6.742s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h
+[6.743s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h
+[6.743s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h
+[6.743s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h
+[6.744s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h
+[6.744s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h
+[6.744s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h
+[6.745s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h
+[6.745s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h
+[6.745s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h
+[6.746s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h
+[6.746s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h
+[6.746s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h
+[6.746s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h
+[6.747s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h
+[6.747s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h
+[6.747s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h
+[6.748s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h
+[6.748s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h
+[6.748s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h
+[6.748s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h
+[6.749s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h
+[6.749s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h
+[6.749s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h
+[6.750s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h
+[6.750s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h
+[6.750s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h
+[6.751s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h
+[6.751s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h
+[6.751s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h
+[6.751s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h
+[6.751s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h
+[6.751s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h
+[6.751s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h
+[6.752s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h
+[6.752s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h
+[6.752s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h
+[6.752s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h
+[6.752s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h
+[6.753s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h
+[6.753s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h
+[6.753s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh
+[6.753s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv
+[6.754s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.754s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h
+[6.754s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h
+[6.755s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h
+[6.755s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[6.755s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h
+[6.756s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h
+[6.756s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+[6.756s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[6.756s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[6.756s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h
+[6.758s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.758s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp
+[6.759s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp
+[6.759s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp
+[6.759s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp
+[6.759s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp
+[6.760s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp
+[6.760s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp
+[6.760s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.hpp
+[6.761s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp
+[6.761s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp
+[6.761s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp
+[6.761s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.hpp
+[6.762s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp
+[6.762s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp
+[6.762s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp
+[6.763s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.hpp
+[6.763s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp
+[6.763s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp
+[6.764s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp
+[6.764s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.hpp
+[6.764s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp
+[6.764s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp
+[6.765s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp
+[6.765s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.hpp
+[6.765s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp
+[6.766s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp
+[6.766s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp
+[6.766s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.hpp
+[6.767s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp
+[6.767s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp
+[6.767s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp
+[6.767s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.hpp
+[6.768s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp
+[6.768s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp
+[6.768s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp
+[6.769s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.hpp
+[6.769s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp
+[6.769s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp
+[6.769s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp
+[6.770s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.hpp
+[6.770s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp
+[6.770s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp
+[6.770s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp
+[6.771s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.hpp
+[6.771s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp
+[6.771s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp
+[6.771s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp
+[6.772s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp
+[6.772s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp
+[6.772s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp
+[6.773s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.773s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp
+[6.773s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp
+[6.773s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp
+[6.774s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[6.774s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp
+[6.774s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp
+[6.774s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+[6.774s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[6.774s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[6.774s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp
+[6.775s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.775s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h
+[6.775s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h
+[6.775s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h
+[6.775s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h
+[6.775s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h
+[6.776s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h
+[6.776s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h
+[6.777s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[6.777s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h
+[6.777s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h
+[6.778s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp
+[6.778s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp
+[6.778s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp
+[6.779s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[6.779s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp
+[6.779s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp
+[6.779s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+[6.779s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[6.779s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[6.780s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp
+[6.780s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh
+[6.781s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv
+[6.781s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/PKG-INFO
+[6.781s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/SOURCES.txt
+[6.782s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/dependency_links.txt
+[6.782s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/top_level.txt
+[6.783s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py
+[6.784s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c
+[6.784s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.784s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c
+[6.785s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/libslam_toolbox__rosidl_generator_py.so
+[6.785s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.785s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.785s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.786s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py
+[6.786s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py
+[6.786s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap_s.c
+[6.787s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py
+[6.787s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py
+[6.787s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue_s.c
+[6.788s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_s.c
+[6.788s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py
+[6.788s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c
+[6.788s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py
+[6.789s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure_s.c
+[6.789s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py
+[6.789s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps_s.c
+[6.790s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py
+[6.790s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause_s.c
+[6.790s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py
+[6.790s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map_s.c
+[6.791s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py
+[6.791s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph_s.c
+[6.791s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py
+[6.791s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive_s.c
+[6.792s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.792s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.792s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.792s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl
+[6.793s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl
+[6.793s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl
+[6.793s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl
+[6.794s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl
+[6.794s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl
+[6.794s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl
+[6.794s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl
+[6.795s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl
+[6.795s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl
+[6.795s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/Pause.srv
+[6.795s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/Pause_Request.msg
+[6.796s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/Pause_Response.msg
+[6.796s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.srv
+[6.796s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue_Request.msg
+[6.797s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue_Response.msg
+[6.797s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.srv
+[6.797s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive_Request.msg
+[6.797s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive_Response.msg
+[6.798s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/Clear.srv
+[6.798s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/Clear_Request.msg
+[6.798s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/Clear_Response.msg
+[6.799s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.srv
+[6.799s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/SaveMap_Request.msg
+[6.799s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/SaveMap_Response.msg
+[6.800s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.srv
+[6.800s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure_Request.msg
+[6.800s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure_Response.msg
+[6.800s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.srv
+[6.801s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps_Request.msg
+[6.801s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps_Response.msg
+[6.801s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.srv
+[6.802s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap_Request.msg
+[6.802s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap_Response.msg
+[6.802s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.srv
+[6.802s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph_Request.msg
+[6.803s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph_Response.msg
+[6.803s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.srv
+[6.803s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph_Request.msg
+[6.803s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph_Response.msg
+[6.804s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox//rviz_plugins.xml
+[6.804s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox//solver_plugins.xml
+[6.805s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node
+[6.805s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node
+[6.805s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node
+[6.806s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node
+[6.806s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic
+[6.806s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libtoolbox_common.so
+[6.807s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[6.807s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libceres_solver_plugin.so
+[6.807s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libasync_slam_toolbox.so
+[6.807s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libsync_slam_toolbox.so
+[6.808s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/liblocalization_slam_toolbox.so
+[6.808s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/liblifelong_slam_toolbox.so
+[6.808s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so
+[6.808s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libkartoSlamToolbox.so
+[6.809s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp
+[6.810s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp
+[6.810s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp
+[6.810s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp
+[6.811s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp
+[6.811s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/map_saver.hpp
+[6.811s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp
+[6.812s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/serialization.hpp
+[6.812s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp
+[6.812s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp
+[6.813s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp
+[6.813s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp
+[6.813s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp
+[6.813s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp
+[6.814s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp
+[6.814s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp
+[6.814s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp
+[6.814s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py
+[6.815s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py
+[6.815s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py
+[6.815s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py
+[6.816s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py
+[6.816s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml
+[6.816s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml
+[6.816s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml
+[6.817s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml
+[6.817s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml
+[6.817s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz
+[6.818s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/solver_plugins.xml
+[6.818s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/rviz_plugins.xml
+[6.818s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox
+[6.818s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox
+[6.819s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh
+[6.819s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv
+[6.819s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/environment/path.sh
+[6.819s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/environment/path.dsv
+[6.820s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/local_setup.bash
+[6.820s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/local_setup.sh
+[6.820s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/local_setup.zsh
+[6.820s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/local_setup.dsv
+[6.820s] -- Symlinking: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.dsv
+[6.839s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox
+[6.840s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox
+[6.840s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox
+[6.840s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/ament_index/resource_index/rclcpp_components/slam_toolbox
+[6.841s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake
+[6.841s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.841s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.842s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[6.842s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[6.842s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.842s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.843s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake
+[6.843s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake
+[6.843s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.xml
+[6.844s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so
+[6.844s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so
+[6.845s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so
+[6.846s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so
+[6.846s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so
+[6.846s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so
+[6.847s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so
+[6.923s] Listing '/home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox'...
+[6.924s] Compiling '/home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py'...
+[6.924s] Listing '/home/rob1/eeng_462/lab4/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv'...
+[6.936s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so
+[6.936s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake
+[6.937s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake
+[6.937s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake
+[6.937s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake
+[6.937s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake
+[6.937s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.938s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[6.938s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake
+[6.938s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake
+[6.938s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake
+[6.938s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake
+[6.939s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake
+[6.939s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake
+[6.940s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake
+[6.940s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake
+[6.940s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake
+[6.940s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake
+[6.941s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake
+[6.941s] -- Up-to-date: /home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake
+[6.949s] Invoked command in '/home/rob1/eeng_462/lab4/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/slam_toolbox

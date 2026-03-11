@@ -4,6 +4,3 @@ source;share/mecanum_robot/hook/pythonpath.sh
 source;share/mecanum_robot/hook/ament_prefix_path.ps1
 source;share/mecanum_robot/hook/ament_prefix_path.dsv
 source;share/mecanum_robot/hook/ament_prefix_path.sh
-source;../../build/mecanum_robot/share/mecanum_robot/hook/pythonpath_develop.ps1
-source;../../build/mecanum_robot/share/mecanum_robot/hook/pythonpath_develop.dsv
-source;../../build/mecanum_robot/share/mecanum_robot/hook/pythonpath_develop.sh

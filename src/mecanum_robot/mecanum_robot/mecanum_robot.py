@@ -6,6 +6,11 @@ from Rosmaster_Lib import Rosmaster
 
 import rclpy
 from rclpy.node import Node
+from math import sin, cos, pi
+from rclpy.qos import QoSProfile
+from geometry_msgs.msg import Quaternion
+from sensor_msgs.msg import JointState
+from tf2_ros import TransformBroadcaster, TransformStamped
 
 # I don't know what this does, do I need it?
 # https://docs.ros.org/en/humble/Concepts/Intermediate/About-Quality-of-Service-Settings.html
@@ -23,12 +28,13 @@ class MecanumRobot(Node):
     def __init__(self):
         # Name of the node
         super().__init__('mecanum_robot')
-        rm.create_receive_threading()                   # Enable rm to control the robot
+        rm.create_receive_threading()               # Enable rm to control the robot
+
         self.publisher = self.create_publisher(
-            Int32MultiArray,                            # Canon is using this, docs say this is bad idea
+            JointState,                            # Canon is using this, docs say this is bad idea
             'wheel_encoders',                           # Name of topic
-            self.getEncoderVals,
-            10)
+            10
+        )
 
         self.subscription = self.create_subscription(
             Twist,                                      # This is the datatype of the message
@@ -38,9 +44,10 @@ class MecanumRobot(Node):
         )
         self.get_logger().info("Started mecanum subscriber")
 
-    def GetEncoderVals(self):
-        msg = Int32MultiArray
-        #msg.data = 
+    def publishEncoderVals(self):
+        msg = JointState
+        msg.data = rm.get_motor_encoder()
+        self.publisher_.publish(msg)
 
     def driveMotors(self, msg):
         # Note that we ignore msg.angular.x and msg.angular.y since our robot can only rotate around zhat
@@ -57,15 +64,6 @@ class MecanumRobot(Node):
         MotorBL = 20 * (msg.linear.x + msg.linear.y - msg.angular.z)
         # Back right
         MotorBR = 20 * (msg.linear.x - msg.linear.y + msg.angular.z)
-
-        # Front left
-#        MotorFL = 20 * (msg.linear.x - msg.linear.y - msg.angular.z)
-#        # Front right
-#        MotorFR = 20 * (msg.linear.x + msg.linear.y + msg.angular.z)
-#        # Back left
-#        MotorBL = 20 * (msg.linear.x + msg.linear.y + msg.angular.z)
-#        # Back right
-#        MotorBR = 20 * (msg.linear.x - msg.linear.y - msg.angular.z)
 
         # Now drive the motors at this velocity
         rm.set_motor(-MotorFR, MotorFL, -MotorBL, MotorBR)

@@ -1,0 +1,17 @@
+[1.619s] Invoking command in '/home/rob1/eeng_462/lab4/build/mecanum_robot': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/openslam_gmapping PYTHONPATH=/home/rob1/eeng_462/lab4/build/mecanum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rob1/eeng_462/lab4/build/mecanum_robot/build --no-deps symlink_data
+[2.275s] running develop
+[2.763s] running egg_info
+[2.763s] writing mecanum_robot.egg-info/PKG-INFO
+[2.764s] writing dependency_links to mecanum_robot.egg-info/dependency_links.txt
+[2.764s] writing entry points to mecanum_robot.egg-info/entry_points.txt
+[2.764s] writing requirements to mecanum_robot.egg-info/requires.txt
+[2.765s] writing top-level names to mecanum_robot.egg-info/top_level.txt
+[2.770s] reading manifest file 'mecanum_robot.egg-info/SOURCES.txt'
+[2.771s] writing manifest file 'mecanum_robot.egg-info/SOURCES.txt'
+[2.774s] running build_ext
+[2.775s] Creating /home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages/mecanum-robot.egg-link (link to .)
+[2.777s] Installing mecanum_robot script to /home/rob1/eeng_462/lab4/install/mecanum_robot/lib/mecanum_robot
+[2.777s] 
+[2.778s] Installed /home/rob1/eeng_462/lab4/build/mecanum_robot
+[2.778s] running symlink_data
+[2.863s] Invoked command in '/home/rob1/eeng_462/lab4/build/mecanum_robot' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/openslam_gmapping PYTHONPATH=/home/rob1/eeng_462/lab4/build/mecanum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rob1/eeng_462/lab4/build/mecanum_robot/build --no-deps symlink_data

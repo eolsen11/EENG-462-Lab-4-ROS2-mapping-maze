@@ -1,0 +1,75 @@
+[0.028s] Invoking command in '/home/rob1/eeng_462/lab4/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake /home/rob1/eeng_462/lab4/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/rob1/eeng_462/lab4/install/rplidar_ros
+[0.064s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.364s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.388s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.462s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.468s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.482s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.609s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.613s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.834s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.950s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.013s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.211s] -- Configuring done
+[1.288s] -- Generating done
+[1.308s] -- Build files have been written to: /home/rob1/eeng_462/lab4/build/rplidar_ros
+[1.329s] Invoked command in '/home/rob1/eeng_462/lab4/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake /home/rob1/eeng_462/lab4/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/rob1/eeng_462/lab4/install/rplidar_ros
+[1.336s] Invoking command in '/home/rob1/eeng_462/lab4/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/rplidar_ros -- -j6 -l6
+[1.423s] [35m[1mConsolidate compiler generated dependencies of target rplidar_client[0m
+[1.430s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[1.430s] [35m[1mConsolidate compiler generated dependencies of target rplidar_node[0m
+[1.464s] [  5%] Built target rplidar_client
+[1.497s] [ 94%] Built target rplidar_composition
+[1.498s] [100%] Built target rplidar_node
+[1.523s] Invoked command in '/home/rob1/eeng_462/lab4/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/rplidar_ros -- -j6 -l6
+[1.545s] Invoking command in '/home/rob1/eeng_462/lab4/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/rplidar_ros
+[1.560s] -- Install configuration: ""
+[1.561s] -- Execute custom install script
+[1.562s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[1.562s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[1.563s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[1.563s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[1.563s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[1.564s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[1.564s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[1.564s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[1.564s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[1.564s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[1.564s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[1.565s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[1.565s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[1.565s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[1.566s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[1.566s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[1.566s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[1.567s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[1.567s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[1.567s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[1.568s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[1.568s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[1.568s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[1.568s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[1.569s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[1.569s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[1.569s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[1.569s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[1.569s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[1.569s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[1.570s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[1.570s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[1.570s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[1.571s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[1.571s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[1.571s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[1.572s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[1.572s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[1.572s] -- Symlinking: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.dsv
+[1.591s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[1.591s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.592s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.592s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[1.592s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[1.593s] -- Up-to-date symlink: /home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.xml
+[1.598s] Invoked command in '/home/rob1/eeng_462/lab4/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/rplidar_ros

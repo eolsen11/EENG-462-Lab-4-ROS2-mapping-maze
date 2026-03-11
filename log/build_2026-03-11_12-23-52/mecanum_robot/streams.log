@@ -1,0 +1,25 @@
+[1.606s] Invoking command in '/home/rob1/eeng_462/lab4/src/mecanum_robot': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/openslam_gmapping PYTHONPATH=/home/rob1/eeng_462/lab4/build/mecanum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_robot build --build-base /home/rob1/eeng_462/lab4/build/mecanum_robot/build install --record /home/rob1/eeng_462/lab4/build/mecanum_robot/install.log --single-version-externally-managed install_data
+[2.188s] running egg_info
+[2.190s] writing ../../build/mecanum_robot/mecanum_robot.egg-info/PKG-INFO
+[2.191s] writing dependency_links to ../../build/mecanum_robot/mecanum_robot.egg-info/dependency_links.txt
+[2.191s] writing entry points to ../../build/mecanum_robot/mecanum_robot.egg-info/entry_points.txt
+[2.192s] writing requirements to ../../build/mecanum_robot/mecanum_robot.egg-info/requires.txt
+[2.192s] writing top-level names to ../../build/mecanum_robot/mecanum_robot.egg-info/top_level.txt
+[2.195s] reading manifest file '../../build/mecanum_robot/mecanum_robot.egg-info/SOURCES.txt'
+[2.196s] adding license file 'LICENSE'
+[2.198s] writing manifest file '../../build/mecanum_robot/mecanum_robot.egg-info/SOURCES.txt'
+[2.198s] running build
+[2.198s] running build_py
+[2.199s] copying mecanum_robot/mecanum_robot.py -> /home/rob1/eeng_462/lab4/build/mecanum_robot/build/lib/mecanum_robot
+[2.199s] running install
+[2.200s] running install_lib
+[2.201s] copying /home/rob1/eeng_462/lab4/build/mecanum_robot/build/lib/mecanum_robot/mecanum_robot.py -> /home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages/mecanum_robot
+[2.202s] byte-compiling /home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages/mecanum_robot/mecanum_robot.py to mecanum_robot.cpython-310.pyc
+[2.204s] running install_data
+[2.204s] running install_egg_info
+[2.208s] removing '/home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages/mecanum_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.209s] Copying ../../build/mecanum_robot/mecanum_robot.egg-info to /home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages/mecanum_robot-0.0.0-py3.10.egg-info
+[2.211s] running install_scripts
+[2.255s] Installing mecanum_robot script to /home/rob1/eeng_462/lab4/install/mecanum_robot/lib/mecanum_robot
+[2.256s] writing list of installed files to '/home/rob1/eeng_462/lab4/build/mecanum_robot/install.log'
+[2.328s] Invoked command in '/home/rob1/eeng_462/lab4/src/mecanum_robot' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_toolbox:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/openslam_gmapping PYTHONPATH=/home/rob1/eeng_462/lab4/build/mecanum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mecanum_robot build --build-base /home/rob1/eeng_462/lab4/build/mecanum_robot/build install --record /home/rob1/eeng_462/lab4/build/mecanum_robot/install.log --single-version-externally-managed install_data

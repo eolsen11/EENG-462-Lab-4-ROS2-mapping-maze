@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing mecanum_robot.egg-info/PKG-INFO
+writing dependency_links to mecanum_robot.egg-info/dependency_links.txt
+writing entry points to mecanum_robot.egg-info/entry_points.txt
+writing requirements to mecanum_robot.egg-info/requires.txt
+writing top-level names to mecanum_robot.egg-info/top_level.txt
+reading manifest file 'mecanum_robot.egg-info/SOURCES.txt'
+writing manifest file 'mecanum_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages/mecanum-robot.egg-link (link to .)
+Installing mecanum_robot script to /home/rob1/eeng_462/lab4/install/mecanum_robot/lib/mecanum_robot
+
+Installed /home/rob1/eeng_462/lab4/build/mecanum_robot
+running symlink_data
+symbolically linking /home/rob1/eeng_462/lab4/build/mecanum_robot/resource/mecanum_robot -> /home/rob1/eeng_462/lab4/install/mecanum_robot/share/ament_index/resource_index/packages
+symbolically linking /home/rob1/eeng_462/lab4/build/mecanum_robot/package.xml -> /home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot

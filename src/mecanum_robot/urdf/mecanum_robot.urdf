@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="mecanum_robot">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="280 150 120"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

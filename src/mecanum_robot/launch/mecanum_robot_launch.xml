@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
-  <node pkg="mecanum_robot" exec="mecanum_robot" name="robot" namespace="ros_robot" />
-  <node pkg="teleop_twist_keyboard" exec="teleop_twist_keyboard" name="controller" namespace="ros_robot" />
+	<node pkg="mecanum_robot" exec="mecanum_robot" name="robot" namespace="ros_robot" />
+	<node pkg="rplidar_ros" exec="view_rplidar_a1_launch.py" name="robot" namespace="ros_robot" />
+	<node pkg="slam_toolbox" exec="online_async_launch.py" name="robot" namespace="ros_robot" />
 </launch>

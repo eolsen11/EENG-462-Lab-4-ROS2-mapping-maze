@@ -1,0 +1,29 @@
+[0.020s] Invoking command in '/home/rob1/eeng_462/lab4/build/rplidar_ros': /usr/bin/cmake /home/rob1/eeng_462/lab4/src/rplidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/rob1/eeng_462/lab4/install/rplidar_ros
+[0.045s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.045s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.045s]   CMake.
+[0.045s] 
+[0.045s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.045s]   CMake that the project does not need compatibility with older versions.
+[0.046s] 
+[0.046s] [0m
+[0.079s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[0.079s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.079s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.079s]   CMake did not find one.
+[0.080s] 
+[0.080s]   Could not find a package configuration file provided by "catkin" with any
+[0.080s]   of the following names:
+[0.080s] 
+[0.080s]     catkinConfig.cmake
+[0.080s]     catkin-config.cmake
+[0.080s] 
+[0.080s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.080s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.081s]   provides a separate development package or SDK, be sure it has been
+[0.081s]   installed.
+[0.081s] 
+[0.081s] [0m
+[0.081s] -- Configuring incomplete, errors occurred!
+[0.081s] See also "/home/rob1/eeng_462/lab4/build/rplidar_ros/CMakeFiles/CMakeOutput.log".
+[0.084s] Invoked command in '/home/rob1/eeng_462/lab4/build/rplidar_ros' returned '1': /usr/bin/cmake /home/rob1/eeng_462/lab4/src/rplidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/rob1/eeng_462/lab4/install/rplidar_ros

@@ -41,3 +41,9 @@ Got further errors RQ-ing a package called ceres, but I need to go for now. I'll
 
 A classmate told me to publish the encoder data from the wheels so I did that
 
+I messed with launch files for a bit and got nothing working right
+
+I think I need to use robot_state_publisher with my urdf
+https://docs.ros.org/en/humble/Tutorials/Intermediate/URDF/Using-URDF-with-Robot-State-Publisher-py.html
+
+A classmate sent me some code for a node that published odometry data and broadcast transforms

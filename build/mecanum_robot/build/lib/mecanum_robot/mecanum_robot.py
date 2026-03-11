@@ -6,11 +6,12 @@ from Rosmaster_Lib import Rosmaster
 
 import rclpy
 from rclpy.node import Node
-from math import sin, cos, pi
+import math
 from rclpy.qos import QoSProfile
 from geometry_msgs.msg import Quaternion
 from sensor_msgs.msg import JointState
 from tf2_ros import TransformBroadcaster, TransformStamped
+from nav_msgs.msg import Odometry
 
 # I don't know what this does, do I need it?
 # https://docs.ros.org/en/humble/Concepts/Intermediate/About-Quality-of-Service-Settings.html
@@ -26,18 +27,12 @@ rm = Rosmaster(com="/dev/ttyCH341USB0", debug=True)
 
 class MecanumRobot(Node):
     def __init__(self):
-        #breakpoint()
-        rclpy.init()
         # Name of the node
         super().__init__('mecanum_robot')
         rm.create_receive_threading()               # Enable rm to control the robot
 
-        self.publisher = self.create_publisher(
-            JointState,                            # Canon is using this, docs say this is bad idea
-            'wheel_encoders',                           # Name of topic
-            self.publishEncoderVals,
-            10
-        )
+        self.odom_pub = self.create_publisher(Odometry, 'odom', 10)
+        self.tf_broadcaster = TransformBroadcaster(self)
 
         self.subscription = self.create_subscription(
             Twist,                                      # This is the datatype of the message
@@ -45,11 +40,22 @@ class MecanumRobot(Node):
             self.driveMotors,
             10                                          # What does the 10 do
         )
-        self.get_logger().info("Started mecanum subscriber")
+        self.get_logger().info("Started mecanum driver")
 
-    def publishEncoderVals(self):
-        msg = JointState
-        #msg.data = 
+        self.x = 0.0
+        self.y = 0.0
+        self.theta = 0.0
+
+        self.last_encoders = None
+
+        self.wheel_radius = 0.04
+        self.ticks_per_rev = 2464
+        self.L = 0.18
+        self.W = 0.15
+
+        self.last_time = self.get_clock().now()
+
+
 
     def driveMotors(self, msg):
         # Note that we ignore msg.angular.x and msg.angular.y since our robot can only rotate around zhat
@@ -72,11 +78,90 @@ class MecanumRobot(Node):
 
         # Log our messages
         self.get_logger().info(f"Front Left motor: {MotorFL}, Front Right motor: {MotorFR}, Back Left motor: {MotorBL}, Back Right motor: {MotorBR}")
+        
+        # Update odom
+        now = self.get_clock().now()
+        wheel_encoder_touple = rm.get_motor_encoder()
 
-        # Logging data about the recieved twist. Add more stuff like response time
-        #self.get_logger().info('recieved twist: "%s"; % msg.data)
+        dt = max((now - self.last_time).nanoseconds * 1e-9, 1e-6)
+        self.last_time = now
+
+        if self.last_encoders is None:
+            self.last_encoders = wheel_encoder_touple
+            return
+
+        # Got this code from canon, may need to rewrite it to match my robot's wheel arrangement/direction        
+        dFL = wheel_encoder_touple[1] - self.last_encoders[1]
+        dFR = wheel_encoder_touple[0] - self.last_encoders[0]
+        dBL = wheel_encoder_touple[2] - self.last_encoders[2]
+        dBR = wheel_encoder_touple[3] - self.last_encoders[3]
+
+        # Update state
+        self.last_encoders = wheel_encoder_touple
+        
+        # Might need these vals from canon
+        tpr = self.ticks_per_rev
+        r = self.wheel_radius
+        
+        wFL = (dFL / tpr) * 2 * math.pi / dt
+        wFR = (dFR / tpr) * 2 * math.pi / dt
+        wBL = (dBL / tpr) * 2 * math.pi / dt
+        wBR = (dBR / tpr) * 2 * math.pi / dt
+
+        # Again, depends on how our code differs. may need to change this
+        vx = (r / 4) * -(wFL + wFR + wBL + wBR)
+        vy = (r / 4) * -(-wFL + wFR + wBL - wBR)
+        omega = (r / (4 * (self.L + self.W))) * (-wFL + wFR - wBL + wBR)
+
+        self.x += (vx * math.cos(self.theta) - vy * math.sin(self.theta)) * dt
+        self.y += (vx * math.sin(self.theta) + vy * math.cos(self.theta)) * dt
+        self.theta += omega * dt
+
+        # wrap angle
+        self.theta = (self.theta + math.pi) % (2 * math.pi) - math.pi
+
+        odom = Odometry()
+
+        odom.header.stamp = now.to_msg()
+        odom.header.frame_id = "odom"
+        odom.child_frame_id = "base_link"
+
+        odom.pose.pose.position.x = self.x
+        odom.pose.pose.position.y = self.y
+
+        odom.pose.pose.orientation.z = math.sin(self.theta / 2.0)
+        odom.pose.pose.orientation.w = math.cos(self.theta / 2.0)
+
+        # covariance (important for mappers)
+        odom.pose.covariance[0] = 0.01
+        odom.pose.covariance[7] = 0.01
+        odom.pose.covariance[35] = 0.05
+
+        odom.twist.twist.linear.x = vx
+        odom.twist.twist.linear.y = vy
+        odom.twist.twist.angular.z = omega
+
+        self.odom_pub.publish(odom)
+
+        t = TransformStamped()
+
+        t.header.stamp = now.to_msg()
+        t.header.frame_id = "odom"
+        t.child_frame_id = "base_link"
+
+        t.transform.translation.x = self.x
+        t.transform.translation.y = self.y
+        t.transform.translation.z = 0.0
+
+        t.transform.rotation.z = math.sin(self.theta / 2.0)
+        t.transform.rotation.w = math.cos(self.theta / 2.0)
+
+        self.tf_broadcaster.sendTransform(t)
+
+
 
 def main(args=None):
+    rclpy.init(args=args)
 
     # Create a node of our class
     mecanum_robot = MecanumRobot()

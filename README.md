@@ -38,3 +38,6 @@ https://github.com/SteveMacenski/slam_toolbox I'm gonna use branch humble
 I had to install a package called libcholmod3. IDK if it's the right one but colcon was complaining that it didn't have CHOLMOD libs. I also installed libsuitesparse-dev
 
 Got further errors RQ-ing a package called ceres, but I need to go for now. I'll push just to document my research
+
+A classmate told me to publish the encoder data from the wheels so I did that
+

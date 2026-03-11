@@ -24,15 +24,25 @@ class MecanumRobot(Node):
         # Name of the node
         super().__init__('mecanum_robot')
         rm.create_receive_threading()                   # Enable rm to control the robot
+        self.publisher = self.create_publisher(
+            Int32MultiArray,                            # Canon is using this, docs say this is bad idea
+            'wheel_encoders',                           # Name of topic
+            self.getEncoderVals,
+            10)
+
         self.subscription = self.create_subscription(
             Twist,                                      # This is the datatype of the message
             'cmd_vel',                                  # This is the name of the topic we're subscribing to
-            self.callback,
+            self.driveMotors,
             10                                          # What does the 10 do
         )
         self.get_logger().info("Started mecanum subscriber")
 
-    def callback(self, msg):
+    def GetEncoderVals(self):
+        msg = Int32MultiArray
+        #msg.data = 
+
+    def driveMotors(self, msg):
         # Note that we ignore msg.angular.x and msg.angular.y since our robot can only rotate around zhat
         # Angular momentum calculations msg.angular.z * (1/2 l + 1/2 h). Let's ignore for now to see what happens
         # That is 1/2 22cm + 1/2 21cm =  21.5 cm or 0.215m

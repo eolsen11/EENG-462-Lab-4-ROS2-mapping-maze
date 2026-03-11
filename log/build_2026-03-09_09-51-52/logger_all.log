@@ -1,0 +1,411 @@
+[0.281s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.282s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7eaf6a40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7ecf4280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7ecf4280>>, mixin_verb=('build',))
+[0.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.689s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rob1/eeng_462/lab4'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_robot) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_robot) by extension 'ignore_ament_install'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_robot) by extensions ['colcon_pkg']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_robot) by extension 'colcon_pkg'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_robot) by extensions ['colcon_meta']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_robot) by extension 'colcon_meta'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_robot) by extensions ['ros']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/mecanum_robot) by extension 'ros'
+[0.728s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mecanum_robot' with type 'ros.ament_python' and name 'mecanum_robot'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.730s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore_ament_install'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_pkg']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_pkg'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_meta']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_meta'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ros']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ros'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['cmake', 'python']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'cmake'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'python'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['python_setup_py']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'python_setup_py'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ignore_ament_install'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['colcon_pkg']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'colcon_pkg'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['colcon_meta']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'colcon_meta'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['ros']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ros'
+[0.734s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping/openslam_gmapping' with type 'ros.ament_cmake' and name 'openslam_gmapping'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'colcon_meta'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['ros']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ros'
+[0.738s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping/slam_gmapping' with type 'ros.ament_cmake' and name 'slam_gmapping'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore_ament_install'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_pkg']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_pkg'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_meta']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_meta'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ros']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ros'
+[0.769s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_toolbox' with type 'ros.ament_cmake' and name 'slam_toolbox'
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.821s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/rob1/eeng_462/lab4/install
+[0.824s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 363 installed packages in /opt/ros/humble
+[0.829s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'mecanum_robot' build argument 'cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'mecanum_robot' build argument 'cmake_target' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'mecanum_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'mecanum_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'mecanum_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'mecanum_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'mecanum_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'mecanum_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'mecanum_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.939s] DEBUG:colcon.colcon_core.verb:Building package 'mecanum_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rob1/eeng_462/lab4/build/mecanum_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rob1/eeng_462/lab4/install/mecanum_robot', 'merge_install': False, 'path': '/home/rob1/eeng_462/lab4/src/mecanum_robot', 'symlink_install': True, 'test_result_base': None}
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.940s] DEBUG:colcon.colcon_core.verb:Building package 'openslam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rob1/eeng_462/lab4/build/openslam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rob1/eeng_462/lab4/install/openslam_gmapping', 'merge_install': False, 'path': '/home/rob1/eeng_462/lab4/src/slam_gmapping/openslam_gmapping', 'symlink_install': True, 'test_result_base': None}
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.941s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rob1/eeng_462/lab4/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rob1/eeng_462/lab4/install/rplidar_ros', 'merge_install': False, 'path': '/home/rob1/eeng_462/lab4/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.942s] DEBUG:colcon.colcon_core.verb:Building package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rob1/eeng_462/lab4/build/slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rob1/eeng_462/lab4/install/slam_toolbox', 'merge_install': False, 'path': '/home/rob1/eeng_462/lab4/src/slam_toolbox', 'symlink_install': True, 'test_result_base': None}
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.944s] DEBUG:colcon.colcon_core.verb:Building package 'slam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rob1/eeng_462/lab4/build/slam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rob1/eeng_462/lab4/install/slam_gmapping', 'merge_install': False, 'path': '/home/rob1/eeng_462/lab4/src/slam_gmapping/slam_gmapping', 'symlink_install': True, 'test_result_base': None}
+[0.944s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.946s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.947s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rob1/eeng_462/lab4/src/slam_gmapping/openslam_gmapping' with build type 'ament_cmake'
+[0.947s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rob1/eeng_462/lab4/src/slam_gmapping/openslam_gmapping'
+[0.952s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.953s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.962s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rob1/eeng_462/lab4/src/mecanum_robot' with build type 'ament_python'
+[0.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_robot', 'ament_prefix_path')
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot/hook/ament_prefix_path.ps1'
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot/hook/ament_prefix_path.dsv'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot/hook/ament_prefix_path.sh'
+[0.967s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.974s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rob1/eeng_462/lab4/src/rplidar_ros' with build type 'ament_cmake'
+[0.975s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rob1/eeng_462/lab4/src/rplidar_ros'
+[0.975s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.983s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rob1/eeng_462/lab4/src/slam_toolbox' with build type 'ament_cmake'
+[0.984s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rob1/eeng_462/lab4/src/slam_toolbox'
+[0.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob1/eeng_462/lab4/build/openslam_gmapping': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/openslam_gmapping -- -j6 -l6
+[1.637s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rob1/eeng_462/lab4/src/mecanum_robot'
+[1.638s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.638s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob1/eeng_462/lab4/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/rplidar_ros -- -j6 -l6
+[1.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob1/eeng_462/lab4/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake /home/rob1/eeng_462/lab4/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rob1/eeng_462/lab4/install/slam_toolbox
+[1.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob1/eeng_462/lab4/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/openslam_gmapping -- -j6 -l6
+[1.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob1/eeng_462/lab4/build/openslam_gmapping': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/openslam_gmapping
+[1.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping' for CMake module files
+[1.754s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping' for CMake config files
+[1.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob1/eeng_462/lab4/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/openslam_gmapping
+[1.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[1.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[1.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping/lib'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping/bin'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping/lib/python3.10/site-packages'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping/bin'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[1.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[1.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[1.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping' for CMake module files
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping' for CMake config files
+[1.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[1.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping/lib'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping/bin'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping/lib/python3.10/site-packages'
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/openslam_gmapping/bin'
+[1.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[1.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[1.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob1/eeng_462/lab4/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[1.796s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rob1/eeng_462/lab4/src/slam_gmapping/slam_gmapping' with build type 'ament_cmake'
+[1.796s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rob1/eeng_462/lab4/src/slam_gmapping/slam_gmapping'
+[1.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.797s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob1/eeng_462/lab4/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/openslam_gmapping:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/slam_gmapping -- -j6 -l6
+[1.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob1/eeng_462/lab4/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/rplidar_ros -- -j6 -l6
+[1.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob1/eeng_462/lab4/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/rplidar_ros
+[1.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.882s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros' for CMake module files
+[1.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob1/eeng_462/lab4/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/rplidar_ros
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros' for CMake config files
+[1.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros/lib'
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros/bin'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros/lib/python3.10/site-packages'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros/bin'
+[1.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob1/eeng_462/lab4/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.901s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros' for CMake module files
+[1.902s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros' for CMake config files
+[1.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros/lib'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros/bin'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.909s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros/lib/python3.10/site-packages'
+[1.910s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/rplidar_ros/bin'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob1/eeng_462/lab4/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob1/eeng_462/lab4/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/openslam_gmapping:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/slam_gmapping -- -j6 -l6
+[1.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob1/eeng_462/lab4/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/openslam_gmapping:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/slam_gmapping
+[2.001s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[2.002s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping' for CMake module files
+[2.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob1/eeng_462/lab4/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/openslam_gmapping:/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/slam_gmapping
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping' for CMake config files
+[2.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[2.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[2.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[2.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping/lib'
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping/bin'
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping/lib/python3.10/site-packages'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping/bin'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.sh'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.bash'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[2.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob1/eeng_462/lab4/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[2.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping' for CMake module files
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping' for CMake config files
+[2.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[2.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping/lib'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping/bin'
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping/lib/python3.10/site-packages'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_gmapping/bin'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[2.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[2.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.sh'
+[2.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.bash'
+[2.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[2.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob1/eeng_462/lab4/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[2.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob1/eeng_462/lab4/build/mecanum_robot': PYTHONPATH=/home/rob1/eeng_462/lab4/build/mecanum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rob1/eeng_462/lab4/build/mecanum_robot/build --no-deps symlink_data
+[3.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_robot', 'pythonpath_develop')
+[3.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/build/mecanum_robot/share/mecanum_robot/hook/pythonpath_develop.ps1'
+[3.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob1/eeng_462/lab4/build/mecanum_robot' returned '0': PYTHONPATH=/home/rob1/eeng_462/lab4/build/mecanum_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rob1/eeng_462/lab4/build/mecanum_robot/build --no-deps symlink_data
+[3.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/build/mecanum_robot/share/mecanum_robot/hook/pythonpath_develop.dsv'
+[3.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/build/mecanum_robot/share/mecanum_robot/hook/pythonpath_develop.sh'
+[3.686s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/mecanum_robot' for CMake module files
+[3.688s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/mecanum_robot' for CMake config files
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/mecanum_robot/lib'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/mecanum_robot/bin'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/mecanum_robot/lib/pkgconfig/mecanum_robot.pc'
+[3.691s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages'
+[3.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_robot', 'pythonpath')
+[3.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot/hook/pythonpath.ps1'
+[3.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot/hook/pythonpath.dsv'
+[3.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot/hook/pythonpath.sh'
+[3.698s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/mecanum_robot/bin'
+[3.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanum_robot)
+[3.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot/package.ps1'
+[3.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot/package.dsv'
+[3.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot/package.sh'
+[3.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot/package.bash'
+[3.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/mecanum_robot/share/mecanum_robot/package.zsh'
+[3.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob1/eeng_462/lab4/install/mecanum_robot/share/colcon-core/packages/mecanum_robot)
+[7.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob1/eeng_462/lab4/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake /home/rob1/eeng_462/lab4/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rob1/eeng_462/lab4/install/slam_toolbox
+[7.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob1/eeng_462/lab4/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/slam_toolbox -- -j6 -l6
+[319.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob1/eeng_462/lab4/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --build /home/rob1/eeng_462/lab4/build/slam_toolbox -- -j6 -l6
+[319.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rob1/eeng_462/lab4/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/slam_toolbox
+[324.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[324.726s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox' for CMake module files
+[324.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rob1/eeng_462/lab4/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/rob1/eeng_462/lab4/install/sllidar_ros2:/home/rob1/eeng_462/lab4/install/slam_gmapping:/home/rob1/eeng_462/lab4/install/mecanum_robot:/opt/ros/humble:/home/rob1/eeng_462/lab4/install/rplidar_ros:/home/rob1/eeng_462/lab4/install/openslam_gmapping /usr/bin/cmake --install /home/rob1/eeng_462/lab4/build/slam_toolbox
+[324.730s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox' for CMake config files
+[324.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[324.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[324.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[324.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[324.753s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox/lib'
+[324.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[324.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[324.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[324.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[324.758s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox/bin'
+[324.759s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[324.761s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox/lib/python3.10/site-packages'
+[324.762s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox/bin'
+[324.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[324.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[324.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.sh'
+[324.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.bash'
+[324.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[324.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob1/eeng_462/lab4/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[324.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[324.776s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox' for CMake module files
+[324.778s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox' for CMake config files
+[324.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[324.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[324.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[324.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[324.791s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox/lib'
+[324.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[324.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[324.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[324.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[324.796s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox/bin'
+[324.796s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[324.797s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox/lib/python3.10/site-packages'
+[324.798s] Level 1:colcon.colcon_core.environment:checking '/home/rob1/eeng_462/lab4/install/slam_toolbox/bin'
+[324.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[324.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[324.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.sh'
+[324.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.bash'
+[324.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/rob1/eeng_462/lab4/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[324.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rob1/eeng_462/lab4/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[324.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[324.808s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[324.808s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[324.809s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[324.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[324.842s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[324.842s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[325.017s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[325.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rob1/eeng_462/lab4/install/local_setup.ps1'
+[325.022s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rob1/eeng_462/lab4/install/_local_setup_util_ps1.py'
+[325.028s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rob1/eeng_462/lab4/install/setup.ps1'
+[325.033s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rob1/eeng_462/lab4/install/local_setup.sh'
+[325.034s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rob1/eeng_462/lab4/install/_local_setup_util_sh.py'
+[325.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rob1/eeng_462/lab4/install/setup.sh'
+[325.039s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rob1/eeng_462/lab4/install/local_setup.bash'
+[325.040s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rob1/eeng_462/lab4/install/setup.bash'
+[325.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rob1/eeng_462/lab4/install/local_setup.zsh'
+[325.044s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rob1/eeng_462/lab4/install/setup.zsh'

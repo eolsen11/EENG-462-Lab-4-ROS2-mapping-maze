@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "slam_toolbox__py",
+		"source" : "/home/rob1/eeng_462/lab4/build/slam_toolbox/slam_toolbox__py"
+	}
+}

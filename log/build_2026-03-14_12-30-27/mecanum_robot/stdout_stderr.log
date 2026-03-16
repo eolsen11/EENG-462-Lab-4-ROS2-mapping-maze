@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/mecanum_robot/mecanum_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/mecanum_robot/mecanum_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/mecanum_robot/mecanum_robot.egg-info/entry_points.txt
+writing requirements to ../../build/mecanum_robot/mecanum_robot.egg-info/requires.txt
+writing top-level names to ../../build/mecanum_robot/mecanum_robot.egg-info/top_level.txt
+reading manifest file '../../build/mecanum_robot/mecanum_robot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/mecanum_robot/mecanum_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages/mecanum_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mecanum_robot/mecanum_robot.egg-info to /home/rob1/eeng_462/lab4/install/mecanum_robot/lib/python3.10/site-packages/mecanum_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mecanum_robot script to /home/rob1/eeng_462/lab4/install/mecanum_robot/lib/mecanum_robot
+writing list of installed files to '/home/rob1/eeng_462/lab4/build/mecanum_robot/install.log'

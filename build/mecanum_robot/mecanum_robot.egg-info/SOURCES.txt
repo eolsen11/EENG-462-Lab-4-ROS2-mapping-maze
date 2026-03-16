@@ -9,6 +9,7 @@ setup.py
 ../../build/mecanum_robot/mecanum_robot.egg-info/requires.txt
 ../../build/mecanum_robot/mecanum_robot.egg-info/top_level.txt
 ../../build/mecanum_robot/mecanum_robot.egg-info/zip-safe
+launch/mecanum_robot_launch.py
 mecanum_robot/__init__.py
 mecanum_robot/mecanum_robot.py
 resource/mecanum_robot

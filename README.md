@@ -51,6 +51,9 @@ I implemented it, I might need to modify some bits to get all the directions cor
 
 I think I'll redo the init files to python since I can't find a good tutorial for adding urdf files in the xml init files
 
+Here's some info on mapping and slam_toolbox
+https://tekbot-robotics-challenge.github.io/2025-Team-Epibot-Docs/week3/pole-it/slam_toolbox.html
+
 ## TODO
 Implement SLAM
 	Write/incorporate URDF file
@@ -66,3 +69,5 @@ Implement vslam
 	How does ROS2 do vslam?
 
 	Can I use a color sensor on the front of the robot to look for green tape?
+
+
